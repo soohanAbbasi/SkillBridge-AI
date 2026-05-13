@@ -34,33 +34,9 @@ Enter your skills and SkillBridge AI will:
 ## System Architecture
 
 ```
-User Input (skills or resume)
-          |
-          v
-TF-IDF Recommendation Engine
-          |
-    |-----|-----|
-    |           |
-Jobs Index   Courses Index
-(124K jobs)  (6600 courses)
-          |
-          v
-5 LangChain AI Agents (Groq / LLaMA 3.3-70b)
-   |
-   |-- Skills Analyzer Agent
-   |-- Career Coach Agent
-   |-- Learning Path Agent
-   |-- Market Trends Agent
-   |-- Resume Analyzer Agent
-          |
-          v
-YouTube Data API v3 (live tutorials)
-          |
-          v
-Bias Detection + SHAP Explainability
-          |
-          v
-Streamlit Dashboard
+## System Architecture
+
+![SkillBridge AI Architecture](https://raw.githubusercontent.com/soohanAbbasi/SkillBridge-AI/main/skillbridge_architecture.png)
 ```
 
 ---
