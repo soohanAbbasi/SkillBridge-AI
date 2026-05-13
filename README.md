@@ -165,13 +165,7 @@ streamlit run app.py
 ## Project Structure
 
 ```
-SkillBridge-AI/
-├── app.py                  # Main Streamlit application
-├── requirements.txt        # Python dependencies
-├── .env.example            # API keys template
-├── .gitignore              # Git ignore rules
-├── LICENSE                 # MIT license
-└── README.md               # Project documentation
+![SkillBridge AI Architecture](skillbridge_architecture.png)
 ```
 
 ---
